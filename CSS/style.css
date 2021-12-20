@@ -34,6 +34,10 @@ select {
 	 margin-bottom: 30px;
 }
 
+input, textarea {
+	outline: 0;
+}
+
 p {
 	margin-top: 15px;
 	margin-bottom: 25px;
