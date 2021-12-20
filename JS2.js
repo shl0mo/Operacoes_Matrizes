@@ -183,7 +183,7 @@ function func_multiplica(arrayMatriz_1, arrayMatriz_2, idJQ) {
 		for (k = 0; k < arrayMatriz_2[0].length; k++) {
 			let soma = 0;
 			for (j = 0; j < arrayMatriz_1[0].length; j++) {
-				soma += parseFloat(arrayMatriz_1[i][j]) * parseFloat(arrayMatriz_2[j][k]);
+				soma = parseFloat(soma) + parseFloat(arrayMatriz_1[i][j]) * parseFloat(arrayMatriz_2[j][k]);
 				soma = soma.toString();
 				if (soma.indexOf('.') != -1) {
 					soma = parseFloat(soma);
