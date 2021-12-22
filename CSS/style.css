@@ -231,3 +231,45 @@ nav {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 807px) {
+	#titulo {
+		left: 25%;
+	}
+}
+
+@media screen and (max-width: 627px) {
+	#titulo {
+		left: 20%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#titulo {
+		left: 15%;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#titulo {
+		left: 10%;
+	}
+}
+
+@media screen and (max-width: 508px) {
+	#titulo {
+		left: 5%;
+	}
+}
+
+@media screen and (max-width: 458px) {
+	#titulo {
+		left: 2%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#titulo {
+		display: none;
+	}
+}
