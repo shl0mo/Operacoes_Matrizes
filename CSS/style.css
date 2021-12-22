@@ -10,7 +10,8 @@ html {
 
 header {
 	position: absolute;
-	width: 200%;
+	display: flex;
+	width: 100%;
 	height: 100px;
 	top: 0px;
 	left: 0px;
@@ -69,14 +70,15 @@ input, textarea, select {
 }
 
 #titulo {
-	position: absolute;
+	position: relative;
+	display: flex;
 	color: white;
-	left: 250px;
+	left: 55%;
 	top: 40px;
 	font-size: 40px;
 	font-family: Agency FB, Arial;
-	/*font-family: Bahnschrift Light;*/
-	/*text-shadow: 3px 3px 5px rgba(0,0,0,0.3);*/
+	/*font-family: Bahnschrift Light;
+	text-shadow: 3px 3px 5px rgba(0,0,0,0.3);*/
 }
 
 
@@ -104,7 +106,6 @@ input, textarea, select {
 	font-size: 25px;
 	width: 50px;
 	height: 50px;
-	top: -78px;
 	border: none;
 }
 
@@ -217,4 +218,16 @@ nav {
 	height: 50px;
 	top: 70px;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 624px) {
+	.instrucoes {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 250px) {
+	#dados_entrada {
+		display: none;
+	}
 }
