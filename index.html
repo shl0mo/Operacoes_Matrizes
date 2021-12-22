@@ -24,13 +24,11 @@
 			<option>Subtração</option>
 			<option>Multiplicação</option>
 		</select><br/>
-		<textarea id="matriz1" class="textareaMatriz" rows="10" cols="30" placeholder="Ex: 10 5 7 
-    9 98 8 
-    5 4 1"></textarea>
-    	<input type="text" id="inputSinal" readonly>
-		<textarea id="matriz2" class="textareaMatriz" rows="10" cols="30" placeholder="Ex: 9 3 5
-    8 7 1
-    40 3 2"></textarea><br/>
+		<div id="dados_entrada" class="grid-container">
+			<textarea id="matriz1" class="textareaMatriz grid-item" rows="10" cols="30" placeholder="Ex: 10 5 7.5 &#10; &nbsp;&nbsp; 9 98 8 &#10; &nbsp;&nbsp;&nbsp;5 4 1"></textarea>
+	    	<input type="text" id="inputSinal" class="grid-item" readonly>
+			<textarea id="matriz2" class="textareaMatriz  grid-item" rows="10" cols="30" placeholder="Ex: 9 3 5 &#10; &nbsp;&nbsp; 8 7 1 &#10; &nbsp;&nbsp; 40 3 2.3"></textarea><br/>
+		</div>
     <button id="butCalcula" onclick="func_calcula()">Calcular</button>
 	</section>
 </body>
