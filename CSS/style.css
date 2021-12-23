@@ -1,5 +1,6 @@
 :root {
 	--cor-padrao-botao: rgb(0,121,0);
+	--hidden: hidden;
 }
 
 html {
