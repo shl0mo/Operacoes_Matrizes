@@ -105,6 +105,7 @@ input, textarea, select {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	margin-top: 35px;
 	margin-bottom: 50px;
+	cursor: pointer;
 }
 
 #inputSinal {
@@ -179,6 +180,11 @@ h1 {
 	font-size: 20px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#butCalcula:hover, #voltar:hover {
+	background-color: rgb(0,130,0);
 }
 
 #trader {
